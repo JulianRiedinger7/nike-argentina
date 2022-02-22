@@ -61,6 +61,34 @@ section{
     padding: 50px;
 }
 
+#imagen5{
+    background-image: url(../sitio-web-oficial-de-nike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: grid;
+    justify-content: start;
+    align-content: flex-end;
+    padding: 50px;
+}
+
+#imagen6{
+    background-image: url(../sitio-web-oficial-de-nike1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: grid;
+    justify-content: start;
+    align-content: flex-end;
+    padding: 50px;
+}
+
+#dos_columnas{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+}
+
 .destacado_blanco{
     color: white;
 }
